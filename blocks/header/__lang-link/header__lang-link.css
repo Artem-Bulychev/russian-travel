@@ -1,6 +1,5 @@
 .header__lang-link {
-  padding: 0;
-  margin: 0;
+  padding-right: 18px;
   font-style: normal;
   font-weight: 400;
   text-align: right;
@@ -10,4 +9,16 @@
   list-style-type: none;
   flex-direction: row;
   color: #FFFFFF;
+}
+
+.header__lang-link:hover {
+  opacity: 0.8;
+}
+
+@media screen and (max-width: 568px) {
+  .header__lang-link {
+      width: auto;
+      font-size: 18px;
+      line-height: 20px;
+  }
 }
